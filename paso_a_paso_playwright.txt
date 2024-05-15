@@ -1,0 +1,20 @@
+Playwright para back
+
+1. Descargar node.js
+2. Git
+3. Extencion en VSCode "Playwright Test for VSCode"
+4. Inicializar playwrite "npm init playwright@latest"
+	Seleccionamos TypeScript
+	prueba end-to-end = test
+	GitHub actions = NO
+	Install Playwright browsers = yes
+
+Los test van a estar escritos en TypeScript, 
+dentro del directorio llamado "test", 
+se van a nombrar con .spec.ts 
+
+5. para correr el test "npx playwright test" 
+6. para ejecutar un browser especifico 
+	"npx playwright test --project=chromium"
+7. para ejecutar un solo test de un archivo
+	"npx playwright test -g "has title""
